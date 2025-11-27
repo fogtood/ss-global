@@ -10,8 +10,8 @@ import uni from "@/assets/images/uni.png";
 import inter from "@/assets/images/inter.png";
 import citizens from "@/assets/images/citizens.png";
 import william from "@/assets/images/william.png";
-import devry from "@/assets/images/devry.png";
-import mpower from "@/assets/images/mpower.png";
+// import devry from "@/assets/images/devry.png";
+// import mpower from "@/assets/images/mpower.png";
 import uniOfgreenwich from "@/assets/images/greenwich.png";
 import uniOfEastLondon from "@/assets/images/university_east_london_logo.png";
 
@@ -52,7 +52,7 @@ const Home = () => {
           <Header
             title={"Optimize and Scale International Student Recruitment"}
           >
-            We know the challenges our clients face—because we've been there.
+            We know the challenges our clients face—because we&apos;ve been there.
             Through the perfect blend of innovative technology and dedicated
             expertise, we revolutionize the international admissions journey,
             making it seamless and effective every step of the way.
