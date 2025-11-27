@@ -127,29 +127,29 @@ const Home = () => {
             </Header>
 
             <div className="grid place-items-center sm:grid-cols-2 lg:grid-cols-3">
-              <div className="flex h-40 w-40 items-center justify-center">
-                <img src={uni} />
+              <div className="flex h-40 w-40 items-center justify-center overflow-hidden">
+                <img src={uni} className="h-full w-auto object-contain" />
               </div>
-              <div className="flex h-40 w-40 items-center justify-center">
-                <img src={inter} />
+              <div className="flex h-40 w-40 items-center justify-center overflow-hidden">
+                <img src={inter} className="h-full w-auto object-contain" />
               </div>
-              <div className="flex h-40 w-40 items-center justify-center">
-                <img src={citizens} />
+              <div className="flex h-40 w-40 items-center justify-center overflow-hidden">
+                <img src={citizens} className="h-full w-auto object-contain" />
               </div>
-              <div className="flex h-40 w-40 items-center justify-center">
-                <img src={william} />
+              <div className="flex h-40 w-40 items-center justify-center overflow-hidden">
+                <img src={william} className="h-full w-auto object-contain" />
               </div>
-              <div className="flex h-40 w-40 items-center justify-center">
+              {/* <div className="flex h-40 w-40 items-center justify-center">
                 <img src={devry} />
-              </div>
-              <div className="flex h-40 w-40 items-center justify-center">
+              </div> */}
+              {/* <div className="flex h-40 w-40 items-center justify-center">
                 <img src={mpower} />
+              </div> */}
+              <div className="flex h-40 w-40 items-center justify-center overflow-hidden">
+                <img src={uniOfgreenwich} className="h-full w-auto object-contain" />
               </div>
-              <div className="flex h-40 w-40 items-center justify-center">
-                <img src={uniOfgreenwich} />
-              </div>
-              <div className="flex h-40 w-40 items-center justify-center">
-                <img src={uniOfEastLondon} />
+              <div className="flex h-40 w-40 items-center justify-center overflow-hidden">
+                <img src={uniOfEastLondon} className="h-full w-auto object-contain" />
               </div>
             </div>
           </div>
