@@ -52,10 +52,10 @@ const Home = () => {
           <Header
             title={"Optimize and Scale International Student Recruitment"}
           >
-            We know the challenges our clients face—because we&apos;ve been there.
-            Through the perfect blend of innovative technology and dedicated
-            expertise, we revolutionize the international admissions journey,
-            making it seamless and effective every step of the way.
+            We know the challenges our clients face—because we&apos;ve been
+            there. Through the perfect blend of innovative technology and
+            dedicated expertise, we revolutionize the international admissions
+            journey, making it seamless and effective every step of the way.
           </Header>
 
           <div className="mx-auto mt-16 grid gap-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -146,10 +146,16 @@ const Home = () => {
                 <img src={mpower} />
               </div> */}
               <div className="flex h-40 w-40 items-center justify-center overflow-hidden">
-                <img src={uniOfgreenwich} className="h-full w-auto object-contain" />
+                <img
+                  src={uniOfgreenwich}
+                  className="h-full w-auto object-contain"
+                />
               </div>
               <div className="flex h-40 w-40 items-center justify-center overflow-hidden">
-                <img src={uniOfEastLondon} className="h-full w-auto object-contain" />
+                <img
+                  src={uniOfEastLondon}
+                  className="h-full w-auto object-contain"
+                />
               </div>
             </div>
           </div>
@@ -174,6 +180,8 @@ const Home = () => {
   );
 };
 
+import PropTypes from "prop-types";
+
 const Card = ({ imgSrc, title, description }) => {
   return (
     <div className="flex flex-col items-center justify-center space-y-8 sm:block">
@@ -197,6 +205,15 @@ export const Header = ({ children, title }) => {
       <p className="mt-4 text-sm sm:text-base md:text-lg">{children}</p>
     </div>
   );
+};
+Header.propTypes = {
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};
+Card.propTypes = {
+  imgSrc: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default Home;
